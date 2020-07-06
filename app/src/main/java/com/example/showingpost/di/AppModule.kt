@@ -1,11 +1,11 @@
-package com.abhay.shadicardmatcher.di.module
+package com.example.showingpost.di
 
 import android.content.Context
 import androidx.room.Room
-import com.abhay.shadicardmatcher.data.db.PostLocalSource
 import com.example.showingpost.ApiService
 import com.example.showingpost.api.RemoteDataSource
 import com.example.showingpost.db.AppDatabase
+import com.example.showingpost.db.PostLocalSource
 import com.example.showingpost.repository.PostRepository
 import com.example.showingpost.utils.Constants
 import com.example.showingpost.utils.Constants.Companion.DATABASE_NAME
@@ -53,6 +53,7 @@ object AppModule {
 
 
     @Singleton
+    @JvmStatic
     @Provides
     fun provideShadiCardMatcherLocalCache(
         database: AppDatabase,

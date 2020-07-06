@@ -1,7 +1,6 @@
-package com.abhay.shadicardmatcher.data.db
+package com.example.showingpost.db
 
 import androidx.lifecycle.LiveData
-import com.example.showingpost.db.PostDao
 import com.example.showingpost.db_model.Post
 import com.example.showingpost.utils.CoroutinesDispatcherProvider
 import kotlinx.coroutines.withContext

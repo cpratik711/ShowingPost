@@ -1,6 +1,6 @@
 package com.example.showingpost.base
 
-import com.abhay.shadicardmatcher.utils.RepositoryResult
+import com.example.showingpost.utils.RepositoryResult
 import retrofit2.Response
 
 abstract class BaseRemoteDataSource {

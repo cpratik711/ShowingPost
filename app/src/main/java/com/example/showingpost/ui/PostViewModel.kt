@@ -4,11 +4,18 @@ import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.ViewModel
 import com.example.showingpost.repository.PostRepository
 
+
 class PostViewModel @ViewModelInject constructor(
     private val postRepository: PostRepository
 ) : ViewModel() {
 
+
+    init {
+        
+    }
+
     val users = postRepository.users
+
 
 /*
 

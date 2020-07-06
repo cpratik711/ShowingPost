@@ -1,8 +1,8 @@
 package com.example.showingpost.repository
 
 
-import com.abhay.shadicardmatcher.data.db.PostLocalSource
 import com.example.showingpost.api.RemoteDataSource
+import com.example.showingpost.db.PostLocalSource
 import com.example.showingpost.utils.CoroutinesDispatcherProvider
 import com.example.showingpost.utils.resultLiveData
 import kotlinx.coroutines.CoroutineScope
@@ -44,7 +44,7 @@ class PostRepository @Inject constructor(
         resultLiveData(
             databaseQuery = { localSource.getAllList() },
             networkCall = { remoteDataSource.fetchUsers() },
-            saveCallResult = { localSource.insertAll(it.results) })
+            saveCallResult = { localSource.insertAll(it) })
 
 
 }
