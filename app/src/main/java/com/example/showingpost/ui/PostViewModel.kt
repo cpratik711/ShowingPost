@@ -1,4 +1,4 @@
-package com.abhay.shadicardmatcher.ui
+package com.example.showingpost.ui
 
 import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.ViewModel

@@ -1,4 +1,4 @@
-package com.abhay.shadicardmatcher.utils
+package com.example.showingpost.utils
 
 data class RepositoryResult<out T>(val status: Status, val data: T?, val message: String?) {
 

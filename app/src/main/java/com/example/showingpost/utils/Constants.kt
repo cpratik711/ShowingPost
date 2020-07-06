@@ -1,4 +1,4 @@
-package com.abhay.shadicardmatcher.utils
+package com.example.showingpost.utils
 
 class Constants {
     companion object {

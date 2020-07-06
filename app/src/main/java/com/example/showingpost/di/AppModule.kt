@@ -2,14 +2,14 @@ package com.abhay.shadicardmatcher.di.module
 
 import android.content.Context
 import androidx.room.Room
-import com.abhay.shadicardmatcher.data.api.RemoteDataSource
-import com.abhay.shadicardmatcher.data.db.AppDatabase
 import com.abhay.shadicardmatcher.data.db.PostLocalSource
-import com.abhay.shadicardmatcher.utils.Constants
-import com.abhay.shadicardmatcher.utils.Constants.Companion.DATABASE_NAME
-import com.abhay.shadicardmatcher.utils.CoroutinesDispatcherProvider
 import com.example.showingpost.ApiService
+import com.example.showingpost.api.RemoteDataSource
+import com.example.showingpost.db.AppDatabase
 import com.example.showingpost.repository.PostRepository
+import com.example.showingpost.utils.Constants
+import com.example.showingpost.utils.Constants.Companion.DATABASE_NAME
+import com.example.showingpost.utils.CoroutinesDispatcherProvider
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.abhay.shadicardmatcher.data.db
+package com.example.showingpost.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

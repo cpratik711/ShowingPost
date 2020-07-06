@@ -1,10 +1,10 @@
 package com.example.showingpost.repository
 
 
-import com.abhay.shadicardmatcher.data.api.RemoteDataSource
 import com.abhay.shadicardmatcher.data.db.PostLocalSource
-import com.abhay.shadicardmatcher.utils.CoroutinesDispatcherProvider
-import com.abhay.shadicardmatcher.utils.resultLiveData
+import com.example.showingpost.api.RemoteDataSource
+import com.example.showingpost.utils.CoroutinesDispatcherProvider
+import com.example.showingpost.utils.resultLiveData
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancelChildren
