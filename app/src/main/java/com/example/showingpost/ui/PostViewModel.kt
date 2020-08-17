@@ -10,10 +10,6 @@ class PostViewModel @ViewModelInject constructor(
 ) : ViewModel() {
 
 
-    init {
-        
-    }
-
     val users = postRepository.users
 
 
